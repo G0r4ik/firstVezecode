@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #24252a;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background: #111111;
+  padding: 1vh 3vw;
+  margin-bottom: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  height: 50px;
+}
+li {
+  padding-left: 4vw;
+  display: inline-block;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #edf0f1;
+  height: 50px;
+}
+
+h1 {
+  color: #2ecc71;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.avatars {
+  border-radius: 50%;
+  border: rgb(130, 34, 160) 3px solid;
+  width: 150px;
+  height: 150px;
+}
+
+.avatars:hover {
+  box-shadow: 10px 10px 150px 10px #089cff;
+}
+.container__main {
+  margin-top: 30vh;
+}
+
+b {
+  color: #089cff;
+}
+.com-img__div {
+  height: 55vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.av__div {
+  margin-right: 80px;
+}
+
+p {
+  font-size: 20px;
+}
+.av__div {
+  color: #089cff;
+}
+
+.av__div:nth-child(2n) {
+  color: #2ecc71;
+}
+.av__div:nth-last-child(1) {
+  margin-right: 0;
+}
+
+/*  */
+
+.container__about {
+  background: #2699a1;
+  padding: 15px;
+}
+
+.about__p {
+  margin-bottom: 10px;
+}
+/*  */
+
+.container__bla-bla {
+  margin-top: 100px;
+  text-align: center;
+  color: #089cff;
+}
+
+.container__bla-bla p {
+  font-size: 50px;
+  line-height: 200%;
+  letter-spacing: 30px;
+  margin-bottom: 20px;
+}
+form {
+  background: #191919;
+  padding: 40px;
+  text-align: center;
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+input[type='text'] {
+  border: 0;
+  background: none;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  color: white;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+  width: 200px;
+}
+
+input[type='text']:focus,
+input[type='password']:focus {
+  width: 280px;
+  border-color: #2ecc71;
+}
+input[type='submit'] {
+  border: 0;
+  background: none;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  color: white;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+input[type='submit']:hover {
+  background: #2ecc71;
+}
+
+footer {
+  background: #18181b;
+  color: #edf0f1;
+}
